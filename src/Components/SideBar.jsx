@@ -1,7 +1,7 @@
 import React from "react";
-import logo from "../assets/mysound new logo 7.svg";
-import appStore from "../assets/App Store.svg";
-import gplay from "../assets/Google play.png";
+import logo from "../assets/mysoundNewLogo7.svg";
+import appStore from "../assets/AppStore.svg";
+import gplay from "../assets/Googleplay.png";
 import { CiHome } from "react-icons/ci";
 import { CiSearch } from "react-icons/ci";
 import { FaRegHeart } from "react-icons/fa";
