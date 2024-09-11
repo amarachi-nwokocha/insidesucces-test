@@ -27,6 +27,10 @@ const Player = () => {
             <FaStepForward size={20}/>
         </div>
         <input type="range" className='w-[15rem] h-1 rounded-sm cursor-pointer bg-hoverGreen' id='slider' />
+       <div className="flex text-[10px] justify-between text-sideText">
+       <p>1:21</p>
+       <p>-2:36</p>
+       </div>
         </div>
     </div>
   )
