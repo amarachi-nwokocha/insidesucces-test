@@ -1,5 +1,6 @@
 import Albums from "./Components/Albums"
 import Header from "./Components/Header"
+import Player from "./Components/Player"
 import SideBar from "./Components/sideBar"
 
 function App() {
@@ -11,6 +12,7 @@ function App() {
    <div className="pl-6">
     <Header />
     <Albums />
+    <Player />
    </div>
     </div>
   )

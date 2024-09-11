@@ -14,8 +14,8 @@ import { RxExit } from "react-icons/rx";
 const SideBar = () => {
   return (
     <div className="bg-sideBg text-sideText w-[20vw] h-full px-10">
-      <img src={logo} alt="" />
-      <div className="mt-12">
+      <img src={logo} alt="" className="pt-4" />
+      <div className="mt-10">
         <div>
           <h2>MENUE</h2>
           <nav className="my-5">
@@ -64,7 +64,7 @@ const SideBar = () => {
             <img src={appStore} alt="" className="w-20"  />
             <img src={gplay} alt="" className="w-20" />
           </div>
-          <p className=" text-[10px] w-48 mt-6 border-2 border-red-700">
+          <p className=" text-[10px] w-48 mt-6">
             Legal ⁃ Privacy ⁃ Cookie Policy ⁃ Cookie Blog Manage ⁃ Imprint
             Resource Chart <span className=" text-blue-700">Language: </span><span className="font-bold"> English (US)</span>
           </p>

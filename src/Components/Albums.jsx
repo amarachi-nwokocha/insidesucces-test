@@ -23,7 +23,7 @@ const Albums = () => {
           className="w-[35rem] h-8 p-4 bg-sideBg text-sm opacity-4 text-white border-2 border-[#2c2c2c] outline-none rounded-md"
         />
       </div>
-      <div className="mt-6 grid grid-cols-4 gap-4">
+      <div className="mt-6 grid grid-cols-4 gap-4 text-xs">
       <div className="">
         <img src={drake} alt="" />
         <p>Back in Time</p>  
@@ -58,7 +58,7 @@ const Albums = () => {
       </div>
       <div className="">
         <img src={music} alt="" />
-        <p>Party Time</p>  
+        <p>Gym Beats</p>  
       </div>
       </div>
     </div>
