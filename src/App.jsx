@@ -1,7 +1,7 @@
 import Albums from "./Components/Albums"
 import Header from "./Components/Header"
 import Player from "./Components/Player"
-import SideBar from "./Components/sideBar"
+import SideBar from "./Components/SideBar"
 
 function App() {
   return(
